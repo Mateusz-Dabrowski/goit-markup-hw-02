@@ -1,0 +1,58 @@
+:root {
+    --main-font: font-family: 'Roboto', sans-serif;
+    --secondary-font: font-family: 'Raleway', sans-serif;
+    --main-color: #2196f3;
+}
+body {
+    font-family: var(--main-font);
+}
+/*==== HEADER ====*/
+.header {
+    background-color: #ffffff;
+}
+.navigation-logo {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight:700;
+    font-size: 26px;
+    line-height: 1.192;
+    line-height: 0.03em;
+    color: var(--main-color);
+}
+.black-part-logo {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.navigation-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--main-color);
+}
+.address-mail,
+.address-phone-number {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.address-mail:hover,
+.address-mail:focus,
+.address-phone-number:hover,
+.address-phone-number:focus {
+    color: var(--main-color);
+}
+/*==== END HEADER ====*/
