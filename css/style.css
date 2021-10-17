@@ -175,3 +175,37 @@ body {
   color: var(--main-color);
 }
 /*==== END FOOTER ====*/
+
+/*==== NAVIGATION PORTFOLIO*/
+.navigation-portfolio-list-item-bnt {
+    background-color: #f5f4fa;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+.navigation-portfolio-list-item-bnt:hover,
+.navigation-portfolio-list-item-bnt:focus {
+    color: #ffffff;
+    background-color: var(--main-color);
+}
+/*==== END NAVIGATION PORTFOLIO ====*/
+
+/*==== ALL ====*/
+.all-list-item-header {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.all-list-item-text {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*==== END ALL*/
